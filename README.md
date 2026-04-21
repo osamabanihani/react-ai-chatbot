@@ -1,16 +1,118 @@
-# React + Vite
+# 🤖 react-ai-chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A modern AI chatbot web application built with **React**, featuring real-time streaming responses, clean UI, and Markdown support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 💬 Real-time AI chat (streaming responses)
+* ⚡ Fast and responsive interface
+* 🎨 Figma-inspired modern UI (glass effect)
+* 🧠 Smart responses powered by AI API
+* 📝 Markdown rendering support
+* ⌨️ Typing animation indicator
+* 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Preview
+
+
+<img width="1919" height="948" alt="Screenshot 2026-04-21 091326" src="https://github.com/user-attachments/assets/a569435a-5fd1-422e-b092-64b9321bff7a" />
+<img width="1919" height="943" alt="Screenshot 2026-04-21 091351" src="https://github.com/user-attachments/assets/07915f1c-a406-485b-a098-1081cf062ea8" />
+
+---
+
+## 🛠️ Tech Stack
+
+* React (Vite)
+* Axios
+* React Markdown
+* Bootstrap
+* Custom CSS (Glass UI)
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash id="cmd1"
+git clone https://github.com/osamabanihani/react-ai-chatbot.git
+cd react-ai-chatbot
+```
+
+Install dependencies:
+
+```bash id="cmd2"
+npm install
+```
+
+Run the app:
+
+```bash id="cmd3"
+npm run dev
+```
+
+---
+
+## 🔑 API Setup
+
+This project uses **OpenRouter API**.
+
+In your code, replace the API key:
+
+```js id="cmd4"
+Authorization: `Bearer YOUR_API_KEY`
+```
+
+## 📁 Project Structure
+
+```bash id="cmd5"
+src/
+  App.jsx
+  App.css
+  main.jsx
+```
+
+---
+
+## 💡 Example Questions
+
+Use these to test the chatbot:
+
+```text id="cmd6"
+Top 5 skills every web developer should learn
+```
+
+```text id="cmd7"
+Explain how APIs work in simple terms
+```
+
+```text id="cmd8"
+Give me a step-by-step plan to become a React developer
+```
+
+---
+
+## ✨ Future Improvements
+
+* 🌙 Dark/Light mode toggle
+* 🧠 Chat history saving
+* 🔐 Authentication system
+* 📎 File upload support
+* 🎤 Voice input
+
+---
+
+## 📄 License
+
+This project is for learning and personal use.
+
+---
+
+## 🙌 Author
+
+by Osama Banihani
